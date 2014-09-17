@@ -41,6 +41,6 @@ If you want to make your own date/time format, just change the line
 
     timestampFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
     
-compile, pack to the jar and off it goes!
+compile, archive to the jar and off it goes!
 
 
