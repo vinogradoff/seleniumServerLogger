@@ -36,3 +36,11 @@ or in Windows
 instead of
 
     java -jar selenium-server-standalone-2.x.y.jar [options]
+    
+If you want to make your own date/time format, just change the line
+
+    timestampFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+    
+compile, pack to the jar and off it goes!
+
+
