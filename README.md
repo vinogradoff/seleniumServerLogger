@@ -12,6 +12,7 @@ Simple patch to change the output format of Selenium 2 standalone server to incl
     2014-09-17 17:26:56.131 INFO - Version Jetty/5.1.x
 
 instead of
+
     17:26:55.452 INFO - Launching a standalone server
     17:26:55.619 INFO - Java: Oracle Corporation 24.45-b08
     17:26:55.619 INFO - OS: Mac OS X 10.9.4 x86_64
@@ -25,10 +26,13 @@ usage
 download the selenium-datelogger_fix.jar, put it in the same folder with the selenium-server-standalone-2.x.y.jar
 
 then run (Linux,Mac)
+
     java -cp "./selenium-datelogger_fix.jar:./selenium-server-standalone-2.x.y.jar" org.openqa.grid.selenium.GridLauncher [options]
 
 or in Windows
+
     java -cp "./selenium-datelogger_fix.jar;./selenium-server-standalone-2.x.y.jar" org.openqa.grid.selenium.GridLauncher [options]
 
-instead of 
+instead of
+
     java -jar selenium-server-standalone-2.x.y.jar [options]
